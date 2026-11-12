@@ -187,3 +187,8 @@ details p, .foldout p, .presentations { margin: 8px 0 0; color: var(--muted); }
   max-height: 75dvh;
   object-fit: contain;
 }
+
+.foldout p,
+details p {
+  text-align: justify;
+}
