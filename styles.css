@@ -188,3 +188,13 @@ details p, .foldout p { text-align: justify; }
   max-height: 75dvh;
   object-fit: contain;
 }
+
+.announcement {
+  margin-top: 18px;
+  padding: 12px 15px;
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--red);
+  border-radius: 8px;
+  background: var(--paper);
+  font-weight: 600;
+}
