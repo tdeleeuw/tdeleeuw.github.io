@@ -192,9 +192,9 @@ details p, .foldout p { text-align: justify; }
 .announcement {
   margin-top: 18px;
   padding: 12px 15px;
-  border: 1px solid var(--line);
-  border-left: 3px solid var(--red);
+  border: 1px solid var(--line, #e9e0e2);
+  border-inline: 3px solid var(--red, #9E1B32);
   border-radius: 8px;
-  background: var(--paper);
+  background: var(--paper, #fff);
   font-weight: 600;
 }
