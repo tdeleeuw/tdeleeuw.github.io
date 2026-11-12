@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap');
 
 :root {
-  --red: #dc002d;
+  --red: #9E1B32;
   --ink: #171316;
   --muted: #655c60;
   --line: #e9e0e2;
@@ -14,7 +14,7 @@
 }
 
 * { box-sizing: border-box; }
-body { margin: 0; border-top: 4px solid var(--red); font-size: .85rem; line-height: 1.6; }
+body { margin: 0; font-size: .85rem; line-height: 1.6; }
 a { color: var(--red); text-underline-offset: .2em; }
 a:hover { text-decoration-thickness: 2px; }
 :focus-visible { outline: 2px solid var(--red); outline-offset: 4px; }
